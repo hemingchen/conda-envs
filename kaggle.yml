@@ -1,0 +1,18 @@
+name: kaggle
+channels:
+  - defaults
+dependencies:
+  - python=3.6
+  - pandas
+  - geopandas
+  - seaborn
+  - plotly
+  - jupyter
+  - scikit-learn
+  - xlrd
+  - matplotlib
+  - protobuf
+  - pip:
+    - opencv-python
+    - tensorflow-gpu==1.12.0
+    - keras
